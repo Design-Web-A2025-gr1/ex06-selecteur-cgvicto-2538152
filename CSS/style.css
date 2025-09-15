@@ -1,0 +1,55 @@
+#titrePage {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+}
+
+#paragraphe1::first-letter {
+    color: purple;
+}
+
+.paragraphe::first-letter {
+    color: green;
+}
+
+div h2:hover {
+    color: mediumaquamarine;
+}
+
+
+
+#malesuada-link {
+    color: inherit;
+    text-decoration: underline wavy red;
+}
+
+#malesuada-link:hover {
+    background-color: #ffea00;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+div {
+    border: 2px solid #daa520;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+
+    background-image: url(../Assets/Images/ex04_image_fond.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* Ombres */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
